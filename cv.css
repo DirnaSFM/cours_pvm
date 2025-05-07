@@ -1,0 +1,54 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: grey;
+}
+
+section {
+    background-color: white;
+    margin: 20px 450px;
+}
+
+.personne {
+    padding: 10px;
+    text-align: center;
+}
+
+/*.intro {
+    background-color: rgb(224, 224, 224);
+}*/
+
+.personne > p {
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+h3 {
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    /*justify-content: space-between;*/
+}
+
+.exppro, .form {
+    font-size: 15px;
+}
+
+.profile {
+    margin-left: 10px;
+}
+
+.presentation {
+    background-color: blanchedalmond;
+    padding: 10px;
+    font-size: 1.1em;
+}
+
+.competance {
+    margin-right: 200px;
+    font-size: 1.3em;
+    text-align: left;
+    padding-left: 20px; /* ou plus si tu veux le décaler davantage */
+}

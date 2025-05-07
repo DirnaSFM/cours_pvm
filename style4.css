@@ -1,0 +1,267 @@
+body{
+    background-color: rgb(27, 27, 27);
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 0.6em;
+}
+
+.vert{
+    background-color: green;
+}
+
+.rouge{
+    background-color: red;
+}
+
+.darkrouge{
+    background-color: darkred;
+}
+
+.orange{
+    background-color: orange;
+}
+
+.jaune{
+    background-color: yellow;
+}
+
+.violet{
+    background-color: purple;
+}
+
+.bleu{
+    background-color: blue;
+}
+
+.gris{
+    background-color: gray;
+}
+
+.brun{
+    background-color: brown;
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container1{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(49, 49, 49);
+    border-radius: 5px;
+    margin: 5px;
+    height: 75px;
+    width: 800px;
+}
+
+.container2{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(49, 49, 49);
+    border-radius: 5px;
+    margin: 5px;
+    height: 75px;
+    width: 800px;
+}
+
+.container3{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(49, 49, 49);
+    border-radius: 5px;
+    margin: 5px;
+    height: 75px;
+    width: 800px;
+}
+
+@keyframes example {
+    from {top: 0px;}
+    to {top: 200px; background-color: blue;}
+  }
+
+.carre1rouge{
+    border-radius: 5px;
+    margin: 20px 5px;
+    height: 30px;
+    width: 30px;
+    background-color: red;
+    transition: border-radius 1.5s, background-color 1.5s;
+}
+  
+.carre1rouge:hover{
+    border-radius: 50px;
+    background-color: darkred;
+}
+
+.cercle1bleu{
+    border-radius: 50px;
+    margin: 20px 5px;
+    height: 30px;
+    width: 30px;
+    background-color: blue;
+    transition: width 1s, height 1s, margin 1s;
+}
+
+.cercle1bleu:hover{
+    border-radius: 50px;
+    margin: 8px 1px;
+    height: 60px;
+    width: 60px;
+    background-color: cyan;
+}
+
+.carre1vert{
+    border-radius: 5px;
+    margin: 20px 5px;
+    height: 30px;
+    width: 30px;
+    background-color: green;
+    transition: border-radius 1s, background-color 1s /*, width 1s, height 1s*/;
+}
+  
+.carre1vert:hover{
+    border-radius: 0px;
+    background-color: yellow;
+}
+
+.carre3darkrouge{
+    border-radius: 5px;
+    margin: 20px 5px;
+    height: 30px;
+    width: 30px;
+    background-color: darkred;
+    position: relative; /* Nécessaire pour que 'left' fonctionne */
+    animation: moveRightLeft 2s linear infinite;
+}
+
+.carre3brun{
+    border-radius: 5px;
+    margin: 20px 5px;
+    height: 30px;
+    width: 30px;
+    background-color: brown;
+    position: relative; /* Nécessaire pour que 'left' fonctionne */
+    animation: moveLeftRight 2s linear infinite;
+}
+
+@keyframes moveRightLeft {
+    0% {
+        left: -50px;
+    }
+    50% {
+        left: 0;
+    }
+    100% {
+        left: -50px;
+    }
+}
+
+@keyframes moveLeftRight {
+    0% {
+        left: 50px;
+    }
+    50% {
+        left: 0;
+    }
+    100% {
+        left: 50px;
+    }
+}
+
+.cercle3gris{
+    border-radius: 50px;
+    margin: 20px 5px;
+    height: 30px;
+    width: 30px;
+    background-color: grey;
+    position: relative; /* Nécessaire pour que 'left' fonctionne */
+    animation: moveTopBottom 2s linear infinite;
+}
+
+@keyframes moveTopBottom {
+    0% {
+        top: -20px;
+    }
+    50% {
+        top: 0;
+    }
+    100% {
+        top: -20px;
+    }
+}
+
+.rectangle1{
+    width: 5px;
+    height: 30px;
+    margin: 20px 5px;
+    -webkit-animation:spin2 4s linear infinite;
+    -moz-animation:spin2 4s linear infinite;
+    animation:spin2 4s linear infinite;
+}
+
+.rectangle2{
+    width: 5px;
+    height: 30px;
+    margin: 20px 5px;
+    -webkit-animation:spin1 4s linear infinite;
+    -moz-animation:spin1 4s linear infinite;
+    animation:spin1 4s linear infinite;
+}
+
+.carre2violet{
+    background-color: purple;
+    width: 30px;
+    height: 30px;
+    margin: 20px 5px;
+    -webkit-animation:spin1 4s linear infinite;
+    -moz-animation:spin1 4s linear infinite;
+    animation:spin1 1s linear infinite;
+}
+
+@-moz-keyframes spin1 { 
+    100% { -moz-transform: rotate(360deg); } 
+}
+
+@-webkit-keyframes spin1 { 
+    100% { -webkit-transform: rotate(360deg); } 
+}
+
+@keyframes spin1 { 
+    100% { 
+        -webkit-transform: rotate(360deg); 
+        transform:rotate(360deg); 
+    } 
+}
+
+@-moz-keyframes spin2 { 
+    100% { -moz-transform: rotate(-360deg); } 
+}
+
+@-webkit-keyframes spin2 { 
+    100% { -webkit-transform: rotate(-360deg); } 
+}
+
+@keyframes spin2 { 
+    100% { 
+        -webkit-transform: rotate(-360deg); 
+        transform:rotate(-360deg); 
+    } 
+}
+
+.carre{
+    border-radius: 5px;
+    margin: 20px 5px;
+    height: 30px;
+    width: 30px;
+}
+
+.cercle{
+    border-radius: 50px;
+    margin: 20px 5px;
+    height: 30px;
+    width: 30px;
+}
+

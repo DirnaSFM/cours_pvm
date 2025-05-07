@@ -1,0 +1,103 @@
+body{
+    background-color: rgb(27, 27, 27);
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 0.6em;
+}
+
+.vert{
+    background-color: green;
+}
+
+.rouge{
+    background-color: red;
+}
+
+.darkrouge{
+    background-color: darkred;
+}
+
+.orange{
+    background-color: orange;
+}
+
+.jaune{
+    background-color: yellow;
+}
+
+.violet{
+    background-color: purple;
+}
+
+.bleu{
+    background-color: blue;
+}
+
+.gris{
+    background-color: gray;
+}
+
+.brun{
+    background-color: brown;
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container1{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(49, 49, 49);
+    border-radius: 5px;
+    margin: 5px;
+    height: 75px;
+    width: 800px;
+}
+
+.container2{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(49, 49, 49);
+    border-radius: 5px;
+    margin: 5px;
+    height: 75px;
+    width: 800px;
+}
+
+.container3{
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(49, 49, 49);
+    border-radius: 5px;
+    margin: 5px;
+    height: 75px;
+    width: 800px;
+}
+
+.container4{
+    display: flex;
+    justify-content: flex-start;
+    background-color: rgb(49, 49, 49);
+    border-radius: 5px;
+    margin: 5px;
+    height: 75px;
+    width: 800px;
+}
+
+.carre{
+    border-radius: 5px;
+    margin: 20px 5px;
+    height: 30px;
+    width: 30px;
+}
+
+.cercle{
+    border-radius: 50px;
+    margin: 20px 5px;
+    height: 30px;
+    width: 30px;
+}
+

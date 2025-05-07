@@ -1,0 +1,52 @@
+table, td{
+    border: 1px solid black;
+}
+thead, tfoot{
+    background-color: black;
+    color: white;
+}
+
+body{
+    background-color: blueviolet;
+    color: chartreuse;
+}
+
+h1{
+    color: brown;
+}
+
+.flex {
+    display: flex;
+}
+
+.carre{
+    margin: 2px;
+    height: 10px;
+    width: 10px;
+}
+
+.vert{
+    background-color: green;
+}
+
+.rouge{
+    background-color: red;
+}
+
+.orange{
+    background-color: orange;
+}
+
+.megaCarre{
+    margin:5px;
+    height: 500px;
+    width: 500px;
+}
+
+.myCarre{
+    margin: 1px;
+    height: 70px;
+    width: 70px;
+}
+
+/*********/

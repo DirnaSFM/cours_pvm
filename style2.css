@@ -1,0 +1,75 @@
+body{
+    background-color: white;
+}
+
+.flex {
+    display: flex;
+}
+
+.vert{
+    background-color: limegreen;
+}
+
+.rouge{
+    background-color: red;
+}
+
+.orange{
+    background-color: orange;
+}
+
+.bleu{
+    background-color: blue;
+}
+
+.megaCarre{
+    margin: 5px;
+    height: 425px;
+    width: 400px;
+}
+
+.myCarre{
+    display: flex;
+    margin: auto;
+    height: 120px;
+    width: 120px;
+}
+
+.myCarre2{
+    display: flex;
+    margin: 5px;
+    height: 100px;
+    width: 400px;
+}
+
+.carre{
+    margin: auto;
+    height: auto;
+    width: auto;
+}
+
+.carre2{
+    justify-items: center;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: auto;
+}
+
+.carreHor{
+    margin: auto;
+    height: 20px;
+    width: 40px;
+}
+
+.miniCarreHor{
+    margin: auto;
+    height: 10px;
+    width: 10px;
+}
+
+.miniCarre{
+    margin: 5px;
+    height: 10px;
+    width: 10px;
+}
